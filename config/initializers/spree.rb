@@ -10,10 +10,10 @@ Spree.config do |config|
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
 
-  config.use_s3 = true
-  config.s3_bucket = 'jamal-estore'
-  config.s3_access_key = 'AKIAIAIQVWLFCIPTF57Q'
-  config.s3_secret = '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'
+  # config.use_s3 = true
+  # config.s3_bucket = 'jamal-estore'
+  # config.s3_access_key = 'AKIAIAIQVWLFCIPTF57Q'
+  # config.s3_secret = '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'
 end
 
 Spree.user_class = "Spree::User"
