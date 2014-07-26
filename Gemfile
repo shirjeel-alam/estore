@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -34,6 +34,8 @@ end
 group :development, :test do
   gem 'pry-rails'
 end
+
+gem 'rails_12factor', group: :production
 
 gem 'spree', '2.3.1'
 gem 'spree_gateway', git: 'https://github.com/spree/spree_gateway.git', branch: '2-3-stable'
